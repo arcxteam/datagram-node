@@ -58,6 +58,11 @@ UBUNTU_VERSION=20.04 docker compose up -d --build
 ```
 UBUNTU_VERSION=24.04 docker compose up -d --build
 ```
+
+> Optional if getting error build and run again
+```
+chmod +x run.sh && chmod +x entrypoint.sh
+```
 ## 4. Update CLI version & Usefull Command Logs
 > For logger info
 ```
@@ -68,15 +73,15 @@ docker logs -f datagram --tail=100
 ```
 > For update CLI version ubuntu 22
 ```
-cd datagram-node && docker compose down
-docker compose up -d --build
+cd datagram-node && docker compose down && docker compose up -d --build
 ```
 > For update CLI version ubuntu 20 or 24
 ```
-cd datagram-node && docker compose down
-UBUNTU_VERSION=20.04 docker compose up -d --build
+cd datagram-node && docker compose down && UBUNTU_VERSION=24.04 docker compose up -d --build
 ```
-
-
+> For all stop and delete CLI node
+```
+cd datagram-node && docker compose down --rmi all
+```
 
 
