@@ -13,3 +13,4 @@ services:
           cpus: '2'
           memory: 2G
     container_name: datagram
+    restart: unless-stopped
