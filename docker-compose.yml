@@ -4,6 +4,8 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
+      args:
+        UBUNTU_VERSION: ${UBUNTU_VERSION:-22.04}
     platform: linux/amd64
     environment:
       - DATAGRAM_KEY=${DATAGRAM_KEY}
