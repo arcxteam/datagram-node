@@ -1,5 +1,6 @@
 # Datagram Node CLI Guide RUNNING on DOCKER
 
+![Your paragraph text](https://github.com/user-attachments/assets/20e0e391-705b-4bdc-98f6-ca556b40baa2)
 
 Datagram is a Global Hyper-Fabric Network designed to power the next generation of real-time connectivity applications and (DePIN). These applications rely on real-world resources like compute, bandwidth, and storage.
 
