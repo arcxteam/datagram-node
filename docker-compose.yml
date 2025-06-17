@@ -9,10 +9,5 @@ services:
     platform: linux/amd64
     environment:
       - DATAGRAM_KEY=${DATAGRAM_KEY}
-    deploy:
-      resources:
-        limits:
-          cpus: '2'
-          memory: 2G
     container_name: datagram
     restart: unless-stopped
