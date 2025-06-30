@@ -1,4 +1,4 @@
-# Datagram Node CLI Guide RUNNING on DOCKER
+# Datagram Node CLI Guide - RUNNING on DOCKER for Ubuntu 20~24
 
 ![Your paragraph text](https://github.com/user-attachments/assets/20e0e391-705b-4bdc-98f6-ca556b40baa2)
 
@@ -31,6 +31,8 @@ Datagram is a Global Hyper-Fabric Network designed to power the next generation 
 - Running a Partner Core Node `1` For request a Partner License: Obtain a license at: Datagram License Portal A partner license key can be used for multiple nodes simultaneously, and rewards will be distributed to the license owner.
 - Every run uptime you can get **Datagram Points (DPTS)** tracker on dashboard or input your address here [Explorer Address Scan](https://testnet.datagram.network/address/0x06855eaEeA6212BE3E874577F8D6520B8c459058?tab=index)
 
+![image](https://github.com/user-attachments/assets/d0a8805d-75cb-4f2d-89cc-af7f8acf609f)
+
 ## 3. Installation & Run Datagram Node
 ### > Clone Repository
 ```
@@ -39,18 +41,18 @@ cd datagram-node
 ```
 
 ### > Set Datagram Key
-> Replace this `your-license-key` get from dashboard and cmd
+> Replace this `your-license-key` get [Licenses](https://dashboard.datagram.network/wallet?tab=licenses) from dashboard and cmd
 ```
 echo "DATAGRAM_KEY=your-license-key" > .env
 ```
 ### > Run at Now...
-> This default for Ubuntu 22.04
+> Default for Ubuntu 22.04
 
 ```
 docker compose up -d --build
 ```
 
-> For other Ubuntu version like 20 or 24, run with this
+> For other Ubuntu version like 20 or 24, run with below
 
 ```
 UBUNTU_VERSION=20.04 docker compose up -d --build
