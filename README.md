@@ -4,9 +4,9 @@
 
 Datagram is a Global Hyper-Fabric Network designed to power the next generation of real-time connectivity applications and (DePIN). These applications rely on real-world resources like compute, bandwidth, and storage.
 
-> Uppdate 2025, 12 July Claim Datagram Points ![Confirm](https://img.shields.io/badge/Phase_1-END_-orange)
+> Uppdate 2025, 7 July Claim Datagram Points ![Confirm](https://img.shields.io/badge/Phase_1-END_-orange)
 
-> 2025, 12 July Stay connection your worker ![Confirm](https://img.shields.io/badge/Phase_2-ONGOING_-brightgreen)
+> 2025, 7 July Stay connection your worker ![Confirm](https://img.shields.io/badge/Phase_2-ONGOING_-brightgreen)
 
 ## Here We Go...Gas!!!
 `Is there incentivized?` ![Confirm](https://img.shields.io/badge/Confirm-yes-brightgreen)
@@ -33,7 +33,7 @@ Datagram is a Global Hyper-Fabric Network designed to power the next generation 
 - Go to dashboard sign-up by email [https://dashboard.datagram.network](https://dashboard.datagram.network/?ref=656984371)
 - For quickstart as run by Default `2`, get your **Datagram_Key** `Open Dashboard > Wallet > Licenses > Copy Key` save it
 - Running a Partner Core Node `1` For request a Partner License: Obtain a license at: Datagram License Portal A partner license key can be used for multiple nodes simultaneously, and rewards will be distributed to the license owner.
-- Every run uptime you can get **Datagram Points (DPTS)** tracker on dashboard or input your address here [Explorer Address Scan](https://testnet.datagram.network/address/0x06855eaEeA6212BE3E874577F8D6520B8c459058?tab=index)
+- Every run uptime you can get **Datagram Points (DPTS)** tracker on dashboard or input your address here [Explorer Address Scan](https://explorer.testnet.datagram.network/token/0xF8889b0ACC75770bf8654c405a4B2Cf06CaCDE71)
 
 ![image](https://github.com/user-attachments/assets/d0a8805d-75cb-4f2d-89cc-af7f8acf609f)
 
@@ -70,6 +70,7 @@ UBUNTU_VERSION=24.04 docker compose up -d --build
 chmod +x run.sh && chmod +x entrypoint.sh
 ```
 ## 4. Update CLI version & Usefull Command Logs
+- Always ensure you are running the [latest version](https://github.com/Datagram-Group/datagram-cli-release/releases)
 > For logger info
 ```
 docker logs -f datagram
