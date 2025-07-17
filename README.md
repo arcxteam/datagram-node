@@ -4,6 +4,10 @@
 
 Datagram is a Global Hyper-Fabric Network designed to power the next generation of real-time connectivity applications and (DePIN). These applications rely on real-world resources like compute, bandwidth, and storage.
 
+> Uppdate 2025, 12 July Claim Datagram Points ![Confirm](https://img.shields.io/badge/Phase_1-END_-orange)
+
+> 2025, 12 July Stay connection your worker ![Confirm](https://img.shields.io/badge/Phase_2-ONGOING_-brightgreen)
+
 ## Here We Go...Gas!!!
 `Is there incentivized?` ![Confirm](https://img.shields.io/badge/Confirm-yes-brightgreen)
 
